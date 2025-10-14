@@ -1,0 +1,8 @@
+[tool.uv.sources]
+recian-api = { workspace = true }
+recian-sdk = { workspace = true }
+recian-client-s3 = { workspace = true }
+recian-client-http = { workspace = true }
+
+[tool.uv.workspace]
+members = ["packages/*"]

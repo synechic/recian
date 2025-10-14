@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Workspace"
+		},
+		{
+			"path": "./python",
+			"name": "Python"
+		},
+	]
+}

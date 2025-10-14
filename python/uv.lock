@@ -1,0 +1,51 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "recian-api",
+    "recian-client-http",
+    "recian-client-s3",
+    "recian-sdk",
+]
+
+[[package]]
+name = "recian-api"
+version = "0.1.0"
+source = { editable = "packages/recian-api" }
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = []
+
+[[package]]
+name = "recian-client-http"
+version = "0.1.0"
+source = { editable = "packages/recian-client-http" }
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = []
+
+[[package]]
+name = "recian-client-s3"
+version = "0.1.0"
+source = { editable = "packages/recian-client-s3" }
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = []
+
+[[package]]
+name = "recian-sdk"
+version = "0.1.0"
+source = { editable = "packages/recian-sdk" }
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = []
