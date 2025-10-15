@@ -6,10 +6,10 @@ requires = ["hatch-vcs", "hatchling"]
 authors = [
   { email = "305301+whardier@users.noreply.github.com", name = "Shane Spencer" },
 ]
-dependencies = []
-description = "Recian API"
+dependencies = ["httpx>=0.28.1"]
+description = "Recian HTTP Transport"
 dynamic = ["version"]
-name = "recian-api"
+name = "recian-transport-http"
 readme = "README.md"
 requires-python = ">=3.10"
 

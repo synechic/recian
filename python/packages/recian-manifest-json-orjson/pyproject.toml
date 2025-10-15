@@ -7,9 +7,9 @@ authors = [
   { email = "305301+whardier@users.noreply.github.com", name = "Shane Spencer" },
 ]
 dependencies = []
-description = "Recian API"
+description = "Recian JSON (orjson) Manifest"
 dynamic = ["version"]
-name = "recian-api"
+name = "recian-manifest-json-orjson"
 readme = "README.md"
 requires-python = ">=3.10"
 

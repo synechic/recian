@@ -7,11 +7,14 @@ authors = [
   { email = "305301+whardier@users.noreply.github.com", name = "Shane Spencer" },
 ]
 dependencies = []
-description = "Recian API"
+description = "Recian CLI"
 dynamic = ["version"]
-name = "recian-api"
+name = "recian-cli"
 readme = "README.md"
 requires-python = ">=3.10"
+
+[project.scripts]
+recian = "recian_cli.entrypoint:main"
 
 [tool.hatch.version]
 source = "vcs"

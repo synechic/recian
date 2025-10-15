@@ -1,8 +1,47 @@
+[dependency-groups]
+dev = [
+  "bandit[toml,yaml]>=1.8.6",
+  "black[colorama]>=25.9.0",
+  "commitizen>=4.9.1",
+  "coverage[toml]>=7.10.7",
+  "flake8-absolute-import>=1.0.0.2",
+  "flake8-bandit>=4.1.1",
+  "flake8-bugbear>=24.12.12",
+  "flake8-builtins>=3.0.0",
+  "flake8-comprehensions>=3.17.0",
+  "flake8-isort>=6.1.2",
+  "flake8-print>=5.0.0",
+  "flake8-pyproject>=1.2.3",
+  "flake8-return>=1.2.0",
+  "flake8-use-pathlib>=0.3.0",
+  "flake8>=7.3.0",
+  "hypothesis[cli,pytest,zoneinfo]>=6.140.4",
+  "isort[colors,plugins]>=6.1.0",
+  "mypy[install-types]>=1.18.2",
+  "pep8-naming>=0.15.1",
+  "pre-commit>=4.3.0",
+  "pycln>=2.5.0",
+  "pytest-cov>=7.0.0",
+  "pytest-env>=1.2.0",
+  "pytest-mock>=3.15.1",
+  "pytest-xdist[psutil]>=3.8.0",
+  "pytest>=8.4.2",
+  "sphinx>=8.1.3",
+  "taplo>=0.9.3",
+  "toml-sort>=0.24.3",
+  "tox>=4.31.0",
+]
+
 [tool.uv.sources]
 recian-api = { workspace = true }
+recian-auth-http-aws-sigv4 = { workspace = true }
+recian-cli = { workspace = true }
+recian-lock-http-aws-dynamodb = { workspace = true }
+recian-lock-http-aws-s3 = { workspace = true }
+recian-manifest-json-orjson = { workspace = true }
 recian-sdk = { workspace = true }
-recian-client-s3 = { workspace = true }
-recian-client-http = { workspace = true }
+recian-transport-http = { workspace = true }
+recian-transport-http-aws-s3 = { workspace = true }
 
 [tool.uv.workspace]
 members = ["packages/*"]

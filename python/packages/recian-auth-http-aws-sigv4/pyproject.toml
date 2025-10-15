@@ -7,9 +7,9 @@ authors = [
   { email = "305301+whardier@users.noreply.github.com", name = "Shane Spencer" },
 ]
 dependencies = []
-description = "Recian API"
+description = "Recian HTTP AWS SigV4 Auth"
 dynamic = ["version"]
-name = "recian-api"
+name = "recian-auth-http-aws-sigv4"
 readme = "README.md"
 requires-python = ">=3.10"
 
