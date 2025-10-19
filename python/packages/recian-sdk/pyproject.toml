@@ -6,7 +6,9 @@ requires = ["hatch-vcs", "hatchling"]
 authors = [
   { email = "305301+whardier@users.noreply.github.com", name = "Shane Spencer" },
 ]
-dependencies = []
+dependencies = [
+    "fasteners>=0.20",
+]
 description = "Recian SDK"
 dynamic = ["version"]
 name = "recian-sdk"
