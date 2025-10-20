@@ -1,4 +1,7 @@
 {
+    "[markdown]": {
+        "rewrap.wrappingColumn": 80,
+    },
     "files.exclude": {
         "python": true,
     }
