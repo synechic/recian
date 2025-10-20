@@ -6,6 +6,8 @@
 [![Discord](https://img.shields.io/discord/1429860101090709579?logo=discord&style=flat)](https://discord.com/widget?id=1429860101090709579)
 <!-- [![Actions status](https://github.com/synechic/recian/actions/workflows/ci.yml/badge.svg)](https://github.com/synechic/recian/actions) -->
 
+![image](https://github.com/synechic/recian/blob/main/assets/banner.png)
+
 ## About
 
 **Recian** is a manifest-driven asset manager built for fast, deterministic
@@ -90,6 +92,7 @@ everything.
 
 The current command line is written in Python (aiming for Rust in a new major
 version) and is available through pip, pipx, uvx by installing the `recian-cli`
+
 program along with various extras.  The `recian-cli`
 [README.md](https://github.com/synechic/recian/blob/main/python/packages/recian-cli/README.md)
 goes over the various extras.
