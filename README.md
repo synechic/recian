@@ -6,7 +6,7 @@
 [![Discord](https://img.shields.io/discord/1429860101090709579?logo=discord&style=flat)](https://discord.com/widget?id=1429860101090709579)
 <!-- [![Actions status](https://github.com/synechic/recian/actions/workflows/ci.yml/badge.svg)](https://github.com/synechic/recian/actions) -->
 
-![image](https://github.com/synechic/recian/blob/main/assets/banner.png)
+![image](https://github.com/synechic/recian/blob/main/assets/banner.png?raw=true)
 
 ## About
 
