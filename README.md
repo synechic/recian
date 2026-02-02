@@ -24,7 +24,7 @@ True to [Synechic](https://github.com/synechic)’s style, Recian is a coined na
 shaped from venerable linguistic roots, deliberately blended into a modern,
 memorable identity.
 
-> Recian (ˈriːʃən, “REE-shun”) — adj.: relating to deliberate return or
+> Recian /ˈriːʃən/ (REE-shun) — adj.: relating to deliberate return or
 > restoration; describing processes that regain or reestablish essential
 > elements with clarity.
 
